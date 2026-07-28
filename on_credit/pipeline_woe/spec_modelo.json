@@ -1,0 +1,1047 @@
+{
+  "variables": {
+    "duration": {
+      "tipo": "numerica",
+      "iv": 0.28157543015186587,
+      "n_bins": 7,
+      "pct_nulos": 0.0,
+      "bins": [
+        {
+          "label": "bin_01",
+          "woe": -1.2446900111447599,
+          "iv": 0.10644258075821023,
+          "n": 94,
+          "event_rate": 0.10638297872340426
+        },
+        {
+          "label": "bin_02",
+          "woe": -0.5384396055863873,
+          "iv": 0.0221466291337366,
+          "n": 86,
+          "event_rate": 0.19767441860465115
+        },
+        {
+          "label": "bin_03",
+          "woe": -0.26853620172523435,
+          "iv": 0.017035034684274253,
+          "n": 251,
+          "event_rate": 0.24701195219123506
+        },
+        {
+          "label": "bin_04",
+          "woe": 0.09203094178515754,
+          "iv": 0.0029193901928852898,
+          "n": 340,
+          "event_rate": 0.3205882352941177
+        },
+        {
+          "label": "bin_05",
+          "woe": 0.18481048029217717,
+          "iv": 0.002106372368756421,
+          "n": 59,
+          "event_rate": 0.3389830508474576
+        },
+        {
+          "label": "bin_06",
+          "woe": 0.5211635877474511,
+          "iv": 0.029642377004621728,
+          "n": 100,
+          "event_rate": 0.42
+        },
+        {
+          "label": "bin_07",
+          "woe": 1.1242615565540182,
+          "iv": 0.10128304600938137,
+          "n": 70,
+          "event_rate": 0.5714285714285714
+        }
+      ],
+      "direccion": 1,
+      "cortes": [
+        8.5,
+        11.5,
+        15.5,
+        26.5,
+        34.5,
+        43.5
+      ],
+      "max_depth": 4
+    },
+    "credit_amount": {
+      "tipo": "numerica",
+      "iv": 0.15048108067395266,
+      "n_bins": 5,
+      "pct_nulos": 0.0,
+      "bins": [
+        {
+          "label": "bin_01",
+          "woe": -0.2823654732484785,
+          "iv": 0.0038068390028852843,
+          "n": 50,
+          "event_rate": 0.24
+        },
+        {
+          "label": "bin_02",
+          "woe": -0.2197152967161376,
+          "iv": 0.03167942915270704,
+          "n": 690,
+          "event_rate": 0.2565217391304348
+        },
+        {
+          "label": "bin_03",
+          "woe": 0.3407679066904082,
+          "iv": 0.014476196712556264,
+          "n": 117,
+          "event_rate": 0.37606837606837606
+        },
+        {
+          "label": "bin_04",
+          "woe": 0.3702047807988102,
+          "iv": 0.010034432104472914,
+          "n": 68,
+          "event_rate": 0.38235294117647056
+        },
+        {
+          "label": "bin_05",
+          "woe": 1.027298226936343,
+          "iv": 0.09048418370133114,
+          "n": 75,
+          "event_rate": 0.5466666666666666
+        }
+      ],
+      "direccion": 1,
+      "cortes": [
+        708.5,
+        3913.5,
+        6193.0,
+        7839.5
+      ],
+      "max_depth": 4
+    },
+    "age": {
+      "tipo": "numerica",
+      "iv": 0.09989730405894773,
+      "n_bins": 4,
+      "pct_nulos": 0.0,
+      "bins": [
+        {
+          "label": "bin_01",
+          "woe": 0.5267480501176515,
+          "iv": 0.05749396181073212,
+          "n": 190,
+          "event_rate": 0.42105263157894735
+        },
+        {
+          "label": "bin_02",
+          "woe": 0.07098561854948394,
+          "iv": 0.0009261439449627011,
+          "n": 181,
+          "event_rate": 0.3149171270718232
+        },
+        {
+          "label": "bin_03",
+          "woe": 0.05177837741854853,
+          "iv": 0.00048016211960560343,
+          "n": 177,
+          "event_rate": 0.3107344632768362
+        },
+        {
+          "label": "bin_04",
+          "woe": -0.31183753082225757,
+          "iv": 0.040997036183647306,
+          "n": 452,
+          "event_rate": 0.23893805309734514
+        }
+      ],
+      "direccion": -1,
+      "cortes": [
+        25.5,
+        29.5,
+        34.5
+      ],
+      "max_depth": 4
+    },
+    "checking_status": {
+      "tipo": "categorica",
+      "iv": 0.6590559880148301,
+      "n_bins": 4,
+      "pct_nulos": 0.0,
+      "bins": [
+        {
+          "label": "cat_01",
+          "woe": 0.3993067693616361,
+          "iv": 0.04592317904650578,
+          "n": 269,
+          "event_rate": 0.3903345724907063
+        },
+        {
+          "label": "cat_02",
+          "woe": 0.8144134257092769,
+          "iv": 0.20356878292478447,
+          "n": 274,
+          "event_rate": 0.4927007299270073
+        },
+        {
+          "label": "cat_03",
+          "woe": -0.3843176334971744,
+          "iv": 0.008646983603052404,
+          "n": 63,
+          "event_rate": 0.2222222222222222
+        },
+        {
+          "label": "cat_04",
+          "woe": -1.1706795309563263,
+          "iv": 0.4009170424404875,
+          "n": 394,
+          "event_rate": 0.116751269035533
+        }
+      ],
+      "grupos": {
+        "cat_01": [
+          "0<=X<200"
+        ],
+        "cat_02": [
+          "<0"
+        ],
+        "cat_03": [
+          ">=200"
+        ],
+        "cat_04": [
+          "no checking"
+        ]
+      }
+    },
+    "credit_history": {
+      "tipo": "categorica",
+      "iv": 0.28923536165652075,
+      "n_bins": 4,
+      "pct_nulos": 0.0,
+      "bins": [
+        {
+          "label": "cat_01",
+          "woe": -0.7296372195903889,
+          "iv": 0.1310775416752493,
+          "n": 293,
+          "event_rate": 0.17064846416382254
+        },
+        {
+          "label": "cat_02",
+          "woe": 0.09076710888875053,
+          "iv": 0.0007432487171509536,
+          "n": 88,
+          "event_rate": 0.3181818181818182
+        },
+        {
+          "label": "cat_03",
+          "woe": 0.08609727187262728,
+          "iv": 0.003986390920462402,
+          "n": 530,
+          "event_rate": 0.31886792452830187
+        },
+        {
+          "label": "otros",
+          "woe": 1.2258757799644566,
+          "iv": 0.1534281803436581,
+          "n": 89,
+          "event_rate": 0.5955056179775281
+        }
+      ],
+      "grupos": {
+        "cat_01": [
+          "critical/other existing credit"
+        ],
+        "cat_02": [
+          "delayed previously"
+        ],
+        "cat_03": [
+          "existing paid"
+        ]
+      }
+    },
+    "purpose": {
+      "tipo": "categorica",
+      "iv": 0.15204748208304714,
+      "n_bins": 7,
+      "pct_nulos": 0.0,
+      "bins": [
+        {
+          "label": "cat_01",
+          "woe": 0.2306056841935589,
+          "iv": 0.005398671563067243,
+          "n": 97,
+          "event_rate": 0.35051546391752575
+        },
+        {
+          "label": "cat_02",
+          "woe": 0.6042974879906603,
+          "iv": 0.02031851411937699,
+          "n": 50,
+          "event_rate": 0.44
+        },
+        {
+          "label": "cat_03",
+          "woe": 0.09347186422466978,
+          "iv": 0.0016077551586154888,
+          "n": 181,
+          "event_rate": 0.32044198895027626
+        },
+        {
+          "label": "cat_04",
+          "woe": 0.3547488047241533,
+          "iv": 0.031242687593020915,
+          "n": 234,
+          "event_rate": 0.3803418803418803
+        },
+        {
+          "label": "cat_05",
+          "woe": -0.4109331917383981,
+          "iv": 0.04300789815378856,
+          "n": 280,
+          "event_rate": 0.22142857142857142
+        },
+        {
+          "label": "cat_06",
+          "woe": -0.7572572669534744,
+          "iv": 0.0494458851294568,
+          "n": 103,
+          "event_rate": 0.1650485436893204
+        },
+        {
+          "label": "otros",
+          "woe": 0.13411606516280478,
+          "iv": 0.0010260703657211314,
+          "n": 55,
+          "event_rate": 0.32727272727272727
+        }
+      ],
+      "grupos": {
+        "cat_01": [
+          "business"
+        ],
+        "cat_02": [
+          "education"
+        ],
+        "cat_03": [
+          "furniture/equipment"
+        ],
+        "cat_04": [
+          "new car"
+        ],
+        "cat_05": [
+          "radio/tv"
+        ],
+        "cat_06": [
+          "used car"
+        ]
+      }
+    },
+    "savings_status": {
+      "tipo": "categorica",
+      "iv": 0.18793795481811781,
+      "n_bins": 5,
+      "pct_nulos": 0.0,
+      "bins": [
+        {
+          "label": "cat_01",
+          "woe": 0.14219669520357237,
+          "iv": 0.0021496162270120346,
+          "n": 103,
+          "event_rate": 0.3300970873786408
+        },
+        {
+          "label": "cat_02",
+          "woe": -0.675902010491369,
+          "iv": 0.02481680156164304,
+          "n": 63,
+          "event_rate": 0.1746031746031746
+        },
+        {
+          "label": "cat_03",
+          "woe": 0.26763110623826686,
+          "iv": 0.04518424758831056,
+          "n": 603,
+          "event_rate": 0.3598673300165838
+        },
+        {
+          "label": "cat_04",
+          "woe": -0.6967814118767274,
+          "iv": 0.07540592580046486,
+          "n": 183,
+          "event_rate": 0.17486338797814208
+        },
+        {
+          "label": "otros",
+          "woe": -1.035137775291775,
+          "iv": 0.04038136364068734,
+          "n": 48,
+          "event_rate": 0.125
+        }
+      ],
+      "grupos": {
+        "cat_01": [
+          "100<=X<500"
+        ],
+        "cat_02": [
+          "500<=X<1000"
+        ],
+        "cat_03": [
+          "<100"
+        ],
+        "cat_04": [
+          "no known savings"
+        ]
+      }
+    },
+    "employment": {
+      "tipo": "categorica",
+      "iv": 0.08565579574150609,
+      "n_bins": 5,
+      "pct_nulos": 0.0,
+      "bins": [
+        {
+          "label": "cat_01",
+          "woe": 0.030040281685397827,
+          "iv": 0.0003071086707403979,
+          "n": 339,
+          "event_rate": 0.30678466076696165
+        },
+        {
+          "label": "cat_02",
+          "woe": -0.39010684467567475,
+          "iv": 0.024305236309548235,
+          "n": 174,
+          "event_rate": 0.22413793103448276
+        },
+        {
+          "label": "cat_03",
+          "woe": 0.4683140349767649,
+          "iv": 0.040813745138176816,
+          "n": 172,
+          "event_rate": 0.4069767441860465
+        },
+        {
+          "label": "cat_04",
+          "woe": -0.23515967698374948,
+          "iv": 0.013293047238691989,
+          "n": 253,
+          "event_rate": 0.25296442687747034
+        },
+        {
+          "label": "cat_05",
+          "woe": 0.32326387298004183,
+          "iv": 0.006936658384348653,
+          "n": 62,
+          "event_rate": 0.3709677419354839
+        }
+      ],
+      "grupos": {
+        "cat_01": [
+          "1<=X<4"
+        ],
+        "cat_02": [
+          "4<=X<7"
+        ],
+        "cat_03": [
+          "<1"
+        ],
+        "cat_04": [
+          ">=7"
+        ],
+        "cat_05": [
+          "unemployed"
+        ]
+      }
+    },
+    "personal_status": {
+      "tipo": "categorica",
+      "iv": 0.044829720433558796,
+      "n_bins": 4,
+      "pct_nulos": 0.0,
+      "bins": [
+        {
+          "label": "cat_01",
+          "woe": 0.23364155452075938,
+          "iv": 0.017650625163697305,
+          "n": 310,
+          "event_rate": 0.35161290322580646
+        },
+        {
+          "label": "cat_02",
+          "woe": 0.446204589181938,
+          "iv": 0.010902340389626793,
+          "n": 50,
+          "event_rate": 0.4
+        },
+        {
+          "label": "cat_03",
+          "woe": -0.12994275906316224,
+          "iv": 0.001522508129624418,
+          "n": 92,
+          "event_rate": 0.2717391304347826
+        },
+        {
+          "label": "cat_04",
+          "woe": -0.1671632817505547,
+          "iv": 0.01475424675061028,
+          "n": 548,
+          "event_rate": 0.2664233576642336
+        }
+      ],
+      "grupos": {
+        "cat_01": [
+          "female div/dep/mar"
+        ],
+        "cat_02": [
+          "male div/sep"
+        ],
+        "cat_03": [
+          "male mar/wid"
+        ],
+        "cat_04": [
+          "male single"
+        ]
+      }
+    },
+    "property_magnitude": {
+      "tipo": "categorica",
+      "iv": 0.11179851276337288,
+      "n_bins": 4,
+      "pct_nulos": 0.0,
+      "bins": [
+        {
+          "label": "cat_01",
+          "woe": 0.033118322792701174,
+          "iv": 0.0003661692639105478,
+          "n": 332,
+          "event_rate": 0.3072289156626506
+        },
+        {
+          "label": "cat_02",
+          "woe": 0.02869869368819217,
+          "iv": 0.00019222347237426098,
+          "n": 232,
+          "event_rate": 0.30603448275862066
+        },
+        {
+          "label": "cat_03",
+          "woe": 0.5839951911658569,
+          "iv": 0.05773730310199977,
+          "n": 154,
+          "event_rate": 0.43506493506493504
+        },
+        {
+          "label": "cat_04",
+          "woe": -0.4587773499185577,
+          "iv": 0.053502816925088306,
+          "n": 282,
+          "event_rate": 0.2127659574468085
+        }
+      ],
+      "grupos": {
+        "cat_01": [
+          "car"
+        ],
+        "cat_02": [
+          "life insurance"
+        ],
+        "cat_03": [
+          "no known property"
+        ],
+        "cat_04": [
+          "real estate"
+        ]
+      }
+    },
+    "other_payment_plans": {
+      "tipo": "categorica",
+      "iv": 0.058440845521270074,
+      "n_bins": 3,
+      "pct_nulos": 0.0,
+      "bins": [
+        {
+          "label": "cat_01",
+          "woe": 0.48343753783794485,
+          "iv": 0.03534313667499623,
+          "n": 139,
+          "event_rate": 0.41007194244604317
+        },
+        {
+          "label": "cat_02",
+          "woe": -0.12264304507983247,
+          "iv": 0.011915674340795317,
+          "n": 814,
+          "event_rate": 0.2751842751842752
+        },
+        {
+          "label": "otros",
+          "woe": 0.4649612616703718,
+          "iv": 0.011182034505478528,
+          "n": 47,
+          "event_rate": 0.40425531914893614
+        }
+      ],
+      "grupos": {
+        "cat_01": [
+          "bank"
+        ],
+        "cat_02": [
+          "none"
+        ]
+      }
+    },
+    "housing": {
+      "tipo": "categorica",
+      "iv": 0.0837998876026058,
+      "n_bins": 3,
+      "pct_nulos": 0.0,
+      "bins": [
+        {
+          "label": "cat_01",
+          "woe": 0.4732748487457432,
+          "iv": 0.026337521088959558,
+          "n": 108,
+          "event_rate": 0.4074074074074074
+        },
+        {
+          "label": "cat_02",
+          "woe": -0.19526674289107598,
+          "iv": 0.026045905975334037,
+          "n": 713,
+          "event_rate": 0.2608695652173913
+        },
+        {
+          "label": "cat_03",
+          "woe": 0.4041390439369428,
+          "iv": 0.03141646053831221,
+          "n": 179,
+          "event_rate": 0.39106145251396646
+        }
+      ],
+      "grupos": {
+        "cat_01": [
+          "for free"
+        ],
+        "cat_02": [
+          "own"
+        ],
+        "cat_03": [
+          "rent"
+        ]
+      }
+    },
+    "foreign_worker": {
+      "tipo": "categorica",
+      "iv": 0.03927430109213401,
+      "n_bins": 2,
+      "pct_nulos": 0.0,
+      "bins": [
+        {
+          "label": "cat_01",
+          "woe": 0.03390545044908979,
+          "iv": 0.0011134111504767417,
+          "n": 963,
+          "event_rate": 0.3073727933541018
+        },
+        {
+          "label": "otros",
+          "woe": -1.1620704197690324,
+          "iv": 0.03816088994165727,
+          "n": 37,
+          "event_rate": 0.10810810810810811
+        }
+      ],
+      "grupos": {
+        "cat_01": [
+          "yes"
+        ]
+      }
+    }
+  },
+  "meta": {
+    "generado": "2026-07-28 20:07:32",
+    "n_desarrollo": 1000,
+    "tasa_base": 0.3,
+    "target_col": "target",
+    "id_col": "cuil_cuit",
+    "convencion_woe": "ln(P(malo)/P(bueno)) centrado — WOE positivo = MÁS riesgo",
+    "escala_iv": "proporciones (umbrales 0.02 / 0.1 / 0.3 / 0.5)",
+    "parametros": {
+      "iv_min": 0.02,
+      "iv_max": 0.5,
+      "exigir_significancia": true,
+      "min_pct_bin": 0.05,
+      "umbral_categorica": 10,
+      "max_categorias": 20,
+      "min_count_categoria": 50,
+      "max_depth_grid": [
+        4,
+        3,
+        2
+      ]
+    },
+    "n_candidatas": 24,
+    "n_conservadas": 13
+  },
+  "auditoria": [
+    {
+      "variable": "duration",
+      "tipo": "numerica",
+      "n_bins": 7,
+      "direccion": 1,
+      "pct_nulos": 0.0,
+      "iv": 0.28157543015186587,
+      "iv_se": 0.05475759861902506,
+      "iv_ci_lower": 0.18165440589429876,
+      "iv_ci_upper": 0.3963002482406774,
+      "significancia": "Significant",
+      "monotona": true,
+      "decision": "conservada",
+      "motivo": "monótona con 7 bins (max_depth=4)"
+    },
+    {
+      "variable": "credit_amount",
+      "tipo": "numerica",
+      "n_bins": 5,
+      "direccion": 1,
+      "pct_nulos": 0.0,
+      "iv": 0.15048108067395266,
+      "iv_se": 0.03710417881059274,
+      "iv_ci_lower": 0.07800950260013893,
+      "iv_ci_upper": 0.2234552108895309,
+      "significancia": "Significant",
+      "monotona": true,
+      "decision": "conservada",
+      "motivo": "monótona con 5 bins (max_depth=4)"
+    },
+    {
+      "variable": "age",
+      "tipo": "numerica",
+      "n_bins": 4,
+      "direccion": -1,
+      "pct_nulos": 0.0,
+      "iv": 0.09989730405894773,
+      "iv_se": 0.028724126211710995,
+      "iv_ci_lower": 0.04388394345606851,
+      "iv_ci_upper": 0.1564804491807415,
+      "significancia": "Significant",
+      "monotona": true,
+      "decision": "conservada",
+      "motivo": "monótona con 4 bins (max_depth=4)"
+    },
+    {
+      "variable": "v_ruido",
+      "tipo": "numerica",
+      "n_bins": 4,
+      "direccion": -1,
+      "pct_nulos": 0.0,
+      "iv": 0.027750062295100013,
+      "iv_se": 0.016734050015868137,
+      "iv_ci_lower": 0.0,
+      "iv_ci_upper": 0.06282807339108976,
+      "significancia": "Not Significant",
+      "monotona": true,
+      "decision": "descartada",
+      "motivo": "IV no significativo"
+    },
+    {
+      "variable": "v_casi_toda_nula",
+      "tipo": "numerica",
+      "n_bins": 0,
+      "direccion": 1,
+      "pct_nulos": 0.9,
+      "iv": null,
+      "iv_se": null,
+      "iv_ci_lower": null,
+      "iv_ci_upper": null,
+      "significancia": "desconocida",
+      "monotona": false,
+      "decision": "descartada",
+      "motivo": "algún bin queda por debajo de 5% de la población (max_depth=2)"
+    },
+    {
+      "variable": "checking_status",
+      "tipo": "categorica",
+      "n_bins": 4,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.6590559880148301,
+      "iv_se": 0.07805066308145063,
+      "iv_ci_lower": 0.5130361177174462,
+      "iv_ci_upper": 0.8189890949356727,
+      "significancia": "Significant",
+      "monotona": null,
+      "decision": "conservada",
+      "motivo": "4 categorías conservadas + 'otros' — OJO: IV 0.6591 > 0.5, revisar leakage"
+    },
+    {
+      "variable": "credit_history",
+      "tipo": "categorica",
+      "n_bins": 4,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.28923536165652075,
+      "iv_se": 0.05310328594238757,
+      "iv_ci_lower": 0.18775000222481084,
+      "iv_ci_upper": 0.39591105804043436,
+      "significancia": "Significant",
+      "monotona": null,
+      "decision": "conservada",
+      "motivo": "3 categorías conservadas + 'otros'"
+    },
+    {
+      "variable": "purpose",
+      "tipo": "categorica",
+      "n_bins": 7,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.15204748208304714,
+      "iv_se": 0.03753376580552669,
+      "iv_ci_lower": 0.08094369143388429,
+      "iv_ci_upper": 0.22807334979987093,
+      "significancia": "Significant",
+      "monotona": null,
+      "decision": "conservada",
+      "motivo": "6 categorías conservadas + 'otros'"
+    },
+    {
+      "variable": "savings_status",
+      "tipo": "categorica",
+      "n_bins": 5,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.18793795481811781,
+      "iv_se": 0.042173417074750766,
+      "iv_ci_lower": 0.11335116566096333,
+      "iv_ci_upper": 0.27866792280395947,
+      "significancia": "Significant",
+      "monotona": null,
+      "decision": "conservada",
+      "motivo": "4 categorías conservadas + 'otros'"
+    },
+    {
+      "variable": "employment",
+      "tipo": "categorica",
+      "n_bins": 5,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.08565579574150609,
+      "iv_se": 0.027550118716413854,
+      "iv_ci_lower": 0.03243662430419997,
+      "iv_ci_upper": 0.140431105212148,
+      "significancia": "Significant",
+      "monotona": null,
+      "decision": "conservada",
+      "motivo": "5 categorías conservadas + 'otros'"
+    },
+    {
+      "variable": "installment_commitment",
+      "tipo": "categorica",
+      "n_bins": 4,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.025473203864505703,
+      "iv_se": 0.01452138297551998,
+      "iv_ci_lower": 0.0,
+      "iv_ci_upper": 0.054783670084424654,
+      "significancia": "Not Significant",
+      "monotona": null,
+      "decision": "descartada",
+      "motivo": "IV no significativo"
+    },
+    {
+      "variable": "personal_status",
+      "tipo": "categorica",
+      "n_bins": 4,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.044829720433558796,
+      "iv_se": 0.01897268492813835,
+      "iv_ci_lower": 0.0074850915237859375,
+      "iv_ci_upper": 0.08185664982214008,
+      "significancia": "Significant",
+      "monotona": null,
+      "decision": "conservada",
+      "motivo": "4 categorías conservadas + 'otros'"
+    },
+    {
+      "variable": "other_parties",
+      "tipo": "categorica",
+      "n_bins": 3,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.031128442709888467,
+      "iv_se": 0.017623360033544512,
+      "iv_ci_lower": 0.0,
+      "iv_ci_upper": 0.06656037444036325,
+      "significancia": "Not Significant",
+      "monotona": null,
+      "decision": "descartada",
+      "motivo": "IV no significativo"
+    },
+    {
+      "variable": "residence_since",
+      "tipo": "categorica",
+      "n_bins": 4,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.0033713179592059425,
+      "iv_se": 0.005533539872762705,
+      "iv_ci_lower": 0.0,
+      "iv_ci_upper": 0.014434294783071847,
+      "significancia": "Not Significant",
+      "monotona": null,
+      "decision": "descartada",
+      "motivo": "IV 0.0034 < 0.02; IV no significativo"
+    },
+    {
+      "variable": "property_magnitude",
+      "tipo": "categorica",
+      "n_bins": 4,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.11179851276337288,
+      "iv_se": 0.03139315345149981,
+      "iv_ci_lower": 0.05110879744957735,
+      "iv_ci_upper": 0.17416769770173518,
+      "significancia": "Significant",
+      "monotona": null,
+      "decision": "conservada",
+      "motivo": "4 categorías conservadas + 'otros'"
+    },
+    {
+      "variable": "other_payment_plans",
+      "tipo": "categorica",
+      "n_bins": 3,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.058440845521270074,
+      "iv_se": 0.021974377271617784,
+      "iv_ci_lower": 0.01454566409697218,
+      "iv_ci_upper": 0.10068364016710496,
+      "significancia": "Significant",
+      "monotona": null,
+      "decision": "conservada",
+      "motivo": "2 categorías conservadas + 'otros'"
+    },
+    {
+      "variable": "housing",
+      "tipo": "categorica",
+      "n_bins": 3,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.0837998876026058,
+      "iv_se": 0.025967664796376987,
+      "iv_ci_lower": 0.03239719990681486,
+      "iv_ci_upper": 0.13418857543382992,
+      "significancia": "Significant",
+      "monotona": null,
+      "decision": "conservada",
+      "motivo": "3 categorías conservadas + 'otros'"
+    },
+    {
+      "variable": "existing_credits",
+      "tipo": "categorica",
+      "n_bins": 3,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.010572576317913826,
+      "iv_se": 0.009542685667869947,
+      "iv_ci_lower": 0.0,
+      "iv_ci_upper": 0.03012895897335311,
+      "significancia": "Not Significant",
+      "monotona": null,
+      "decision": "descartada",
+      "motivo": "IV 0.0106 < 0.02; IV no significativo"
+    },
+    {
+      "variable": "job",
+      "tipo": "categorica",
+      "n_bins": 4,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.009000588396365765,
+      "iv_se": 0.008716297544635902,
+      "iv_ci_lower": 0.0,
+      "iv_ci_upper": 0.025846460916117735,
+      "significancia": "Not Significant",
+      "monotona": null,
+      "decision": "descartada",
+      "motivo": "IV 0.0090 < 0.02; IV no significativo"
+    },
+    {
+      "variable": "num_dependents",
+      "tipo": "categorica",
+      "n_bins": 2,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 2.2556453725068732e-05,
+      "iv_se": 0.0005995537604894547,
+      "iv_ci_lower": 0.0,
+      "iv_ci_upper": 0.0012185014215744482,
+      "significancia": "Not Significant",
+      "monotona": null,
+      "decision": "descartada",
+      "motivo": "IV 0.0000 < 0.02; IV no significativo"
+    },
+    {
+      "variable": "own_telephone",
+      "tipo": "categorica",
+      "n_bins": 2,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.006281880036810402,
+      "iv_se": 0.006806714751542601,
+      "iv_ci_lower": 0.0,
+      "iv_ci_upper": 0.019718443550559253,
+      "significancia": "Not Significant",
+      "monotona": null,
+      "decision": "descartada",
+      "motivo": "IV 0.0063 < 0.02; IV no significativo"
+    },
+    {
+      "variable": "foreign_worker",
+      "tipo": "categorica",
+      "n_bins": 2,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": 0.03927430109213401,
+      "iv_se": 0.022325107681693466,
+      "iv_ci_lower": 0.00012104390202361676,
+      "iv_ci_upper": 0.087633857916219,
+      "significancia": "Significant",
+      "monotona": null,
+      "decision": "conservada",
+      "motivo": "1 categorías conservadas + 'otros'"
+    },
+    {
+      "variable": "v_constante",
+      "tipo": "categorica",
+      "n_bins": 0,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": null,
+      "iv_se": null,
+      "iv_ci_lower": null,
+      "iv_ci_upper": null,
+      "significancia": "desconocida",
+      "monotona": null,
+      "decision": "descartada",
+      "motivo": "sin variabilidad (una sola categoría observada)"
+    },
+    {
+      "variable": "cat_alta_card",
+      "tipo": "categorica",
+      "n_bins": 0,
+      "direccion": null,
+      "pct_nulos": 0.0,
+      "iv": null,
+      "iv_se": null,
+      "iv_ci_lower": null,
+      "iv_ci_upper": null,
+      "significancia": "desconocida",
+      "monotona": null,
+      "decision": "descartada",
+      "motivo": "ninguna categoría alcanza el mínimo de 50 casos"
+    }
+  ]
+}
