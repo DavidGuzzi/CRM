@@ -36,7 +36,7 @@ pip install "fastwoe[examples]"     # + seaborn, jupyter, statsmodels, pygam
 
 **El pin `scikit-learn < 1.8` es la restricción a mirar.** Tu entorno local tiene Python 3.9.13 con sklearn 1.6.1, así que entra sin conflicto. En el notebook la instalación va en una celda con la *magic* `%pip` (no `!pip`), que instala en el intérprete del kernel seleccionado.
 
-> **Si estás detrás del proxy de Telecom.** La instalación falla con `SSLCertVerificationError` porque la inspección SSL rompe la verificación de certificados de PyPI. Se resuelve con
+> **Si estás detrás de un proxy corporativo con inspección SSL.** La instalación falla con `SSLCertVerificationError` porque la inspección SSL rompe la verificación de certificados de PyPI. Se resuelve con
 > `%pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org "fastwoe[plotting]"`.
 > Verificado en este entorno. OpenML, en cambio, sí responde.
 
